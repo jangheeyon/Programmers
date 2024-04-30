@@ -1,9 +1,6 @@
 def solution(num_list):
     if len(num_list) >= 11:
-        plus = 0
-        for i in num_list:
-            plus += i
-        return plus
+        return sum(num_list)
     elif len(num_list) <= 10:
         mult = 1
         for i in num_list:
